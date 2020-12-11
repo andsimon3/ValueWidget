@@ -1,0 +1,18 @@
+.ControlPanel_Animate{
+	width: 3em;
+	height: 1.5em;
+	margin: 0 5px 5px 0;
+	appearance: none;
+	background: no-repeat content-box url(../switch.svg);
+	background-size: cover;
+	background-position: -1.3em;
+    -moz-appearance: none;
+	-webkit-appearance: none;
+	cursor: pointer;
+	border-radius: 1em;
+	border: 1px solid black;
+}
+.ControlPanel_Animate:checked{
+	background-position: 0.1em;
+
+}

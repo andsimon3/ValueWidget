@@ -1,0 +1,21 @@
+.Visualizer_Svg_Animated{
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-name: loading;
+}
+@keyframes loading{
+	0%{
+		transform: rotate(0);
+		animation-timing-function: ease-in;
+	}
+	50%{
+		transform: rotate(270deg);
+		animation-timing-function: ease-out;
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+.Visualizer_Svg_Hidden{
+	visibility: hidden;
+}

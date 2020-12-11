@@ -1,0 +1,5 @@
+.ControlPanel_Box{
+	width: auto;
+	display: flex;
+	height: calc(1.5em + 6px);
+}
